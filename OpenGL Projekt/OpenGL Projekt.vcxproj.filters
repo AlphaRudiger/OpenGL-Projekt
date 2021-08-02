@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\el">
+      <UniqueIdentifier>{9013faaf-f1a0-475d-885b-4bf572399d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\el">
+      <UniqueIdentifier>{c200917c-dadf-48af-aebd-5b79acc918f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Minecraft">
+      <UniqueIdentifier>{3a2f3f75-25e9-4619-99fd-e5de982b39da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Minecraft">
+      <UniqueIdentifier>{b2c36d03-a31b-405b-a186-e883028ede21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Minecraft\World">
+      <UniqueIdentifier>{70bd053e-83f3-45b4-a67f-0a3529a50a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Minecraft\Entity">
+      <UniqueIdentifier>{b7da1b52-424d-4ba0-88dc-2a611eb18b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Minecraft\World">
+      <UniqueIdentifier>{055a096c-287b-4042-8340-64080d90006e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\el\ui">
+      <UniqueIdentifier>{e3869a26-dd23-45f0-860c-bd49de6289ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Minecraft\Entity">
+      <UniqueIdentifier>{182fef39-07b8-4d8b-a8ff-7b9a5b46ce59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{21237523-bd31-4fd6-ab05-76b5794d19af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{e34f383d-239a-4523-a594-197e465ad2f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OpenGL Projekt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstPersonCameraController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="PerspectiveCamera.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexAttributes.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftTextures.cpp">
+      <Filter>Source Files\Minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAtlas.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeRenderer.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubemap.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files\Minecraft\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\Minecraft\World</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\Minecraft\World</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldGenerator.cpp">
+      <Filter>Source Files\Minecraft\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Minecraft\World</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Minecraft\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Minecraft\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkSupplier.cpp">
+      <Filter>Source Files\Minecraft\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Builder.cpp">
+      <Filter>Source Files\Minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="General.cpp">
+      <Filter>Source Files\Minecraft</Filter>
+    </ClCompile>
+    <ClCompile Include="InitStuff.cpp">
+      <Filter>Source Files\el</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Minecraft\World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstPersonCameraController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerspectiveCamera.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexAttributes.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftTextures.h">
+      <Filter>Header Files\Minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlas.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeRenderer.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubemap.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files\Minecraft\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files\Minecraft\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Minecraft\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldGenerator.h">
+      <Filter>Header Files\Minecraft\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Minecraft\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files\Minecraft\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files\el\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Header Files\el\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\el\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\Minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="FrustumCull.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkSupplier.h">
+      <Filter>Header Files\Minecraft\World</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="shared_recursive_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Raycast.h">
+      <Filter>Header Files\Minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Header Files\Minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>Header Files\Minecraft</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\Minecraft\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files\el</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Minecraft\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Operations.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\el\ShapeRenderer\FragmentShader.glsl" />
+    <None Include="assets\el\ShapeRenderer\VertexShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\Textures.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\textures\Skybox\Daylight Box_Back.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\textures\Skybox\Daylight Box_Bottom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\textures\Skybox\Daylight Box_Front.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\textures\Skybox\Daylight Box_Left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\textures\Skybox\Daylight Box_Right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\textures\Skybox\Daylight Box_Top.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\textures\textures.atlas" />
+    <Text Include="assets\shader\game\FragmentShader.glsl" />
+    <Text Include="assets\shader\game\VertexShader.glsl" />
+    <Text Include="assets\el\shader\ShapeRenderer\FragmentShader.glsl" />
+    <Text Include="assets\el\shader\ShapeRenderer\VertexShader.glsl" />
+    <Text Include="assets\el\shader\Skybox\FragmentShader.glsl" />
+    <Text Include="assets\el\shader\Skybox\VertexShader.glsl" />
+  </ItemGroup>
+</Project>
